@@ -1,0 +1,45 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.landing-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  transform: translateX(50%);
+  gap: 1rem;
+}
+.logo-link {
+  cursor: pointer;
+}
+.demo-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-right: 1%;
+}
+.demo-button2 {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 5%;
+}
+.banner {
+  margin-top: 5%;
+  margin-left: 25%;
+  transform: scale(0.8);
+}
+h1 {
+  margin-left: 34%;
+}

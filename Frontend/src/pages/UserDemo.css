@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.logo-link {
+  cursor: pointer;
+}
+.pie-chart-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total-paid,
+.total-paid-ammount {
+  position: absolute;
+  text-align: center;
+}
+
+.total-paid {
+  transform: translateY(-50%);
+}
+
+.total-paid-ammount {
+  transform: translateY(50%);
+}
+.input {
+  margin-bottom: 1rem;
+}
+
+.dependents {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+/* General form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  max-width: 500px;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form labels */
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #4a4a4a;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* Form inputs */
+.form input,
+.form select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input:focus,
+.form select:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 0 0.2rem rgba(102, 175, 233, 0.25);
+}
+
+/* Form buttons */
+.add-dependent,
+button[type="submit"],
+button[type="button"] {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.add-dependent {
+  background-color: #4caf50;
+  color: white;
+  margin-top: 1rem;
+}
+
+button[type="submit"],
+button[type="button"] {
+  background-color: #007bff;
+  color: white;
+  margin-top: 1rem;
+}
+
+.add-dependent:hover,
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+/* Remove dependent button */
+.dependent-info button {
+  background-color: #f44336;
+  color: white;
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 40px;
+}
+
+.dependent-info button:hover {
+  background-color: #d32f2f;
+}
+.deps {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 35%;
+}
